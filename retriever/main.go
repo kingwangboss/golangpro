@@ -50,4 +50,5 @@ func main() {
 	fmt.Printf("%T %v\n", r, r)
 	//fmt.Println(download(r))
 	fmt.Println(session(&mock.Retriever{Contents: "this is fake www.baidu.com"}))
+
 }
